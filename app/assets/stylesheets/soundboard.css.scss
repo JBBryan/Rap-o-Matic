@@ -1,0 +1,22 @@
+// Place all the styles related to the soundboard controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.title {
+  text-align: center;
+  margin: 50px 0 50px 0;
+}
+
+.rapper-container {
+  margin-bottom: 20px;
+}
+
+img {
+  width:220px;
+  height: 220px;
+}
+
+.shadow {
+  -webkit-filter: drop-shadow(10px 2px 6px rgba(3,3,3,0.5));
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
