@@ -1,9 +1,16 @@
 // Place all the styles related to the soundboard controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: #F9FFE7;
+}
+
 .title {
+  color: #09c;
+  font-family: "Permanent Marker";
+  font-size: 3.6em;
+  margin: 20px;
   text-align: center;
-  margin: 50px 0 50px 0;
 }
 
 .rapper-container {
@@ -13,10 +20,21 @@
 img {
   width:220px;
   height: 220px;
+  position: relative;
 }
 
 .shadow {
   -webkit-filter: drop-shadow(10px 2px 6px rgba(3,3,3,0.5));
   filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+.hidden {
+  display:none;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  opacity: .75;
 }
