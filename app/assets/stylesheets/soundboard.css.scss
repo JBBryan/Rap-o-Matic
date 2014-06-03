@@ -13,8 +13,25 @@ body {
   text-align: center;
 }
 
+.spacer {
+  width: 50%;
+  margin-left: 25%;
+  border-bottom: 3px solid #09c;
+  margin-bottom: 34px;
+  margin-top: 34px;
+}
+
+.bottom {
+  margin-top: 68px;
+}
+
+.row {
+  margin-top: 20px
+}
+
 .rapper-container {
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 img {
@@ -25,7 +42,6 @@ img {
 
 .shadow {
   -webkit-filter: drop-shadow(10px 2px 6px rgba(3,3,3,0.5));
-  filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
@@ -37,4 +53,13 @@ img {
   position: absolute;
   z-index: 1;
   opacity: .75;
+}
+
+.footer {
+  color: #09c;
+  margin-bottom: 34px;
+  text-align: center;
+  a{
+    text-decoration: underline;
+  }
 }
